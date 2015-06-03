@@ -1,0 +1,57 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/delegates/FileWatcherDelegate.js" />
+        <item url="file://$PROJECT_DIR$/delegates/EmailDelegate.js" />
+        <item url="file://$PROJECT_DIR$/app.js" />
+        <item url="file://$PROJECT_DIR$/common/Utils.js" />
+        <item url="file://$PROJECT_DIR$/routes/DashBoardRoute.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/d3/d3-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/dcjs/dc-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/d3/plugins/d3.superformula-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/status-bar/status-bar-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/q-io/Q-io-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/qajax/qajax-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/text-buffer/text-buffer-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/dot/dot-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/promises-a-plus/promises-a-plus-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/ace/tests/ace-anchor-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/breeze/breeze-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/ace/all-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/rx/rx.backpressure-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/knockout.rx/knockout.rx-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/rx/rx.async-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/d3/d3-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/dcjs/dc-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/d3/plugins/d3.superformula-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/pdf/pdf-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/status-bar/status-bar-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/q-io/Q-io-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/md5/md5-test.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/qajax/qajax-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/elm/elm-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/text-buffer/text-buffer-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/dot/dot-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/promises-a-plus/promises-a-plus-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/ace/tests/ace-anchor-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/breeze/breeze-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/ace/all-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/rx/rx.backpressure-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/knockout.rx/knockout.rx-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/rx/rx.async-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/pdf/pdf-tests.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/md5/md5-test.js" />
+      <root url="file://$PROJECT_DIR$/DefinitelyTyped/elm/elm-tests.js" />
+      <root url="file://$PROJECT_DIR$/delegates/FileWatcherDelegate.js" />
+      <root url="file://$PROJECT_DIR$/delegates/EmailDelegate.js" />
+      <root url="file://$PROJECT_DIR$/common/Utils.js" />
+      <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/routes/DashBoardRoute.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

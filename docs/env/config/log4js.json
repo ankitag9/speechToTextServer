@@ -1,0 +1,16 @@
+{
+    "appenders": [
+        {
+            "type": "console",
+            "filename": "/var/stt/logs/stt.log",
+            "layout": {
+                "type": "pattern",
+                "pattern": "%d %[[%p] %c%] - %m"
+            }
+        }
+    ],
+
+    "levels": {
+        "tests":  "ALL"
+    }
+}
