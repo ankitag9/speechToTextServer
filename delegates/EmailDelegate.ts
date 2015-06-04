@@ -147,7 +147,7 @@ class EmailDelegate
         }
     }
 
-    sendTranscript(phoneNumber:string, date:string, transcript:string):q.Promise<any>
+    sendTranscript(userEmail:string,phoneNumber:string, date:string, transcript:string):q.Promise<any>
     {
         var self = this;
 
@@ -157,7 +157,7 @@ class EmailDelegate
             transcript:transcript
         };
 
-        return self.composeAndSend(EmailDelegate.SEND_TRANSCRIPT,'ankit.agarwal@silversparro.com',data);
+        return self.composeAndSend(EmailDelegate.SEND_TRANSCRIPT,userEmail,data);
     }
 }
 export = EmailDelegate

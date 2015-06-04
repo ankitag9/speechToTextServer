@@ -9,7 +9,7 @@ import passport                                     = require('passport');
 import log4js                                       = require('log4js');
 import connect_flash                                = require("connect-flash");
 
-import DashboardRoute                               = require('./routes/DashboardRoute');
+import DashBoardRoute                               = require('./routes/DashBoardRoute');
 
 var connect = require('connect');
 var session = require('express-session');
@@ -42,4 +42,4 @@ app.listen(app.get('port'), function(){
     console.log('STT server started on port ' + 3434);
 });
 
-new DashboardRoute(app);
+new DashBoardRoute(app);

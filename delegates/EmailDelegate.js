@@ -103,7 +103,7 @@ var EmailDelegate = (function () {
         }
     };
 
-    EmailDelegate.prototype.sendTranscript = function (phoneNumber, date, transcript) {
+    EmailDelegate.prototype.sendTranscript = function (userEmail, phoneNumber, date, transcript) {
         var self = this;
 
         var data = {
@@ -112,7 +112,7 @@ var EmailDelegate = (function () {
             transcript: transcript
         };
 
-        return self.composeAndSend(EmailDelegate.SEND_TRANSCRIPT, 'ankit.agarwal@silversparro.com', data);
+        return self.composeAndSend(EmailDelegate.SEND_TRANSCRIPT, userEmail, data);
     };
     EmailDelegate.EMAIL_TEST = 'EMAIL_TEST';
     EmailDelegate.SEND_TRANSCRIPT = 'SEND_TRANSCRIPT';

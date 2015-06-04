@@ -21,13 +21,14 @@ class DashBoardRoute
     private upload(req:express.Request, res:express.Response)
     {
         var self = this;
+        var userEmail = req.query['userEmail'];
         var path = req.files['file']['path'];
         var originalFileName = req.files['file']['originalFilename'];
         var uploadedFileName = _.last(path.split('/'));
         var phoneNumber:string = originalFileName.substring(originalFileName.indexOf('p')+1,originalFileName.indexOf('.'));
         var date = moment(originalFileName.substring(1,originalFileName.indexOf('p')),'YYYYMMDDHHmmss');
 
-        DashBoardRoute.logger.debug('Call received. phoneNumber - ' + phoneNumber);
+        DashBoardRoute.logger.debug('Call received. phoneNumber - %s, userEmail - %s',phoneNumber,userEmail);
 
         var opts = {
             file: path,
@@ -38,12 +39,12 @@ class DashBoardRoute
         {
             if(!Utils.isNullOrEmpty(results))
             {
-                DashBoardRoute.logger.debug('API Results for phoneNUmber - ' + phoneNumber + ' are - ' + JSON.stringify(results));
+                DashBoardRoute.logger.debug('API Results for phoneNumber - %s, userEmail - %s are - %s',phoneNumber,userEmail,JSON.stringify(results));
                 var transcript:string = self.processResults(results);
                 if(transcript == "")
                     transcript = "Apologies. No Transcript available";
-                DashBoardRoute.logger.debug('Transcript for phoneNumber - ' + phoneNumber + ' is - ' + transcript);
-                self.emailDelegate.sendTranscript(phoneNumber, date.format('DD-MM-YYYY HH:mm a'), transcript)
+                DashBoardRoute.logger.debug('Transcript for phoneNumber - %s, userEmail - %s is - %s',phoneNumber,userEmail,transcript);
+                self.emailDelegate.sendTranscript(userEmail,phoneNumber, date.format('DD-MM-YYYY HH:mm a'), transcript)
                     .then(
                     function emailSent()
                     {
@@ -52,13 +53,13 @@ class DashBoardRoute
                     .fail(
                     function emailSendError()
                     {
-                        DashBoardRoute.logger.error('Email not sent for call with phoneNumber - ' + phoneNumber);
+                        DashBoardRoute.logger.error('Email not sent for call with phoneNumber - %s, userEmail - %s',phoneNumber,userEmail);
                         res.send('Error').status(500);
                     })
             }
             else
             {
-                DashBoardRoute.logger.error('No for call with phoneNumber - ' + phoneNumber);
+                DashBoardRoute.logger.error('No for call with phoneNumber - %s, userEmail - %s',phoneNumber,userEmail);
                 res.send('Error').status(500);
 
             }
@@ -71,7 +72,7 @@ class DashBoardRoute
         _.each(results,function(result){
             var resultObject = result['result'][0];
             transcript += Utils.isNullOrEmpty(resultObject) ? '' : ' ' + resultObject['alternative'][0]['transcript'];
-        })
+        });
         return transcript;
     }
 

@@ -8,7 +8,7 @@ var passport = require('passport');
 var log4js = require('log4js');
 var connect_flash = require("connect-flash");
 
-var DashboardRoute = require('./routes/DashboardRoute');
+var DashBoardRoute = require('./routes/DashBoardRoute');
 
 var connect = require('connect');
 var session = require('express-session');
@@ -40,5 +40,5 @@ app.listen(app.get('port'), function () {
     console.log('STT server started on port ' + 3434);
 });
 
-new DashboardRoute(app);
+new DashBoardRoute(app);
 //# sourceMappingURL=app.js.map
