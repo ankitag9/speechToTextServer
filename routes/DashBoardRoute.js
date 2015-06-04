@@ -22,7 +22,7 @@ var DashBoardRoute = (function () {
         var phoneNumber = originalFileName.substring(originalFileName.indexOf('p') + 1, originalFileName.indexOf('.'));
         var date = moment(originalFileName.substring(1, originalFileName.indexOf('p')), 'YYYYMMDDHHmmss');
 
-        DashBoardRoute.logger.debug('Call received. phoneNumber - %s, userEmail - %s', phoneNumber, userEmail);
+        DashBoardRoute.logger.debug('Call received. phoneNumber - %s, userEmail - %s, uploadedFile - %s', phoneNumber, userEmail, uploadedFileName);
 
         var opts = {
             file: path,

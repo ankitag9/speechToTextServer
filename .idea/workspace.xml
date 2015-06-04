@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a8965c-7f31-44ce-9cdf-40fe42a953c7" name="Default" comment="Email as query Input &#10;Proper logging">
+    <list default="true" id="f9a8965c-7f31-44ce-9cdf-40fe42a953c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/DashBoardRoute.js.map" afterPath="$PROJECT_DIR$/routes/DashBoardRoute.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/DashBoardRoute.js" afterPath="$PROJECT_DIR$/routes/DashBoardRoute.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/DashBoardRoute.ts" afterPath="$PROJECT_DIR$/routes/DashBoardRoute.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegates/EmailDelegate.js.map" afterPath="$PROJECT_DIR$/delegates/EmailDelegate.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegates/EmailDelegate.js" afterPath="$PROJECT_DIR$/delegates/EmailDelegate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegates/EmailDelegate.ts" afterPath="$PROJECT_DIR$/delegates/EmailDelegate.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.ts" afterPath="$PROJECT_DIR$/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="speechToText.iws" />
@@ -34,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.ts" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.ts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="973" selection-end="973" vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="750">
+            <state line="20" column="36" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -46,16 +40,16 @@
       <file leaf-file-name="DashBoardRoute.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/DashBoardRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1050">
+            <state line="56" column="0" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashBoardRoute.ts" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DashBoardRoute.ts" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/DashBoardRoute.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="22" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1275">
+            <state line="30" column="107" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.44924405" vertical-offset="242" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -322,6 +316,11 @@
       <created>1433270110065</created>
       <updated>1433270110065</updated>
     </task>
+    <task id="LOCAL-00001" summary="Email as query Input &#10;Proper logging">
+      <created>1433444281614</created>
+      <updated>1433444281614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/DashBoardRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1050">
+        <state line="56" column="0" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
@@ -714,16 +713,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/DashBoardRoute.ts">
+    <entry file="file://$PROJECT_DIR$/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="22" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.0" vertical-offset="812" max-vertical-offset="1275">
+        <state line="20" column="36" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.ts">
+    <entry file="file://$PROJECT_DIR$/routes/DashBoardRoute.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="973" selection-end="973" vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="750">
+        <state line="30" column="107" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.44924405" vertical-offset="242" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
